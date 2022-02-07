@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OLT.Common.ComponentModel", "src\OLT.Common.ComponentModel\OLT.Common.ComponentModel.csproj", "{52FB633C-AADF-416C-8047-BA5F8981C819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C959A98E-B86E-4A72-86C7-A76CA748CF63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4BD03300-088C-4D1E-B286-953396F4B401}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OLT.Common.ComponentModel.Tests", "tests\OLT.Common.ComponentModel.Tests\OLT.Common.ComponentModel.Tests.csproj", "{14635142-46F9-4E1C-9D1A-369BD0DE222E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OLT.Common.Json.Newtonsoft", "src\OLT.Common.Json.Newtonsoft\OLT.Common.Json.Newtonsoft.csproj", "{FE18E6CD-5D53-48BA-AD65-F65872270D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OLT.Common.Json.Newtonsoft.Tests", "tests\OLT.Common.Json.Newtonsoft.Tests\OLT.Common.Json.Newtonsoft.Tests.csproj", "{E248F60F-500D-4A80-8066-8CAFF59FA7E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FB633C-AADF-416C-8047-BA5F8981C819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FB633C-AADF-416C-8047-BA5F8981C819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FB633C-AADF-416C-8047-BA5F8981C819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FB633C-AADF-416C-8047-BA5F8981C819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14635142-46F9-4E1C-9D1A-369BD0DE222E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14635142-46F9-4E1C-9D1A-369BD0DE222E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14635142-46F9-4E1C-9D1A-369BD0DE222E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14635142-46F9-4E1C-9D1A-369BD0DE222E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE18E6CD-5D53-48BA-AD65-F65872270D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE18E6CD-5D53-48BA-AD65-F65872270D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE18E6CD-5D53-48BA-AD65-F65872270D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE18E6CD-5D53-48BA-AD65-F65872270D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E248F60F-500D-4A80-8066-8CAFF59FA7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E248F60F-500D-4A80-8066-8CAFF59FA7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E248F60F-500D-4A80-8066-8CAFF59FA7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E248F60F-500D-4A80-8066-8CAFF59FA7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52FB633C-AADF-416C-8047-BA5F8981C819} = {C959A98E-B86E-4A72-86C7-A76CA748CF63}
+		{14635142-46F9-4E1C-9D1A-369BD0DE222E} = {4BD03300-088C-4D1E-B286-953396F4B401}
+		{FE18E6CD-5D53-48BA-AD65-F65872270D32} = {C959A98E-B86E-4A72-86C7-A76CA748CF63}
+		{E248F60F-500D-4A80-8066-8CAFF59FA7E3} = {4BD03300-088C-4D1E-B286-953396F4B401}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAA32F2E-677E-40EA-8A1E-8CA8136FBFF6}
+	EndGlobalSection
+EndGlobal
