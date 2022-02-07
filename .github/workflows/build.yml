@@ -54,7 +54,7 @@ jobs:
         run: dotnet build ${{ format('{0}/{1}', env.SOURCE_DIRECTORY, env.SOLUTION_FILE) }} --configuration "Release" --no-restore
 
       - name: Test
-        run: dotnet test ${{ format('{0}/{1}', env.SOURCE_DIRECTORY, env.SOLUTION_FILE) }} --no-build --verbosity normal --no-restore --configuration "Release" --collect:"XPlat Code Coverage" --results-directory TestResults/ --logger "trx;LogFileName=unittests.trx" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
+        run: dotnet test ${{ format('{0}/{1}', env.SOURCE_DIRECTORY, env.SOLUTION_FILE) }} --no-build --verbosity normal --no-restore --configuration "Release" --collect:"XPlat Code Coverage" --results-directory TestResults/ --logger "trx;LogFilePrefix=unittests" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
         env:
           ASPNETCORE_ENVIRONMENT: Test
 
