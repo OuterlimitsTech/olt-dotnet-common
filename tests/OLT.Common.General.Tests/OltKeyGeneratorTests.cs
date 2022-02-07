@@ -63,9 +63,9 @@ namespace OLT.Common.General.Tests
         {
             var result = new Dictionary<char, double>();
             var chars = (new char[0])
-                .Concat(OltConstants.UpperCase)
-                .Concat(OltConstants.LowerCase)
-                .Concat(OltConstants.Numerals)
+                .Concat(OltCharacters.UpperCase)
+                .Concat(OltCharacters.LowerCase)
+                .Concat(OltCharacters.Numerals)
                 .ToArray();
 
             Dictionary<char, int> counts = new Dictionary<char, int>();
