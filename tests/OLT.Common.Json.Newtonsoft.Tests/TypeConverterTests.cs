@@ -14,6 +14,7 @@ namespace OLT.Common.Json.Newtonsoft.Tests
             Assert.Equal(TestEnumType.Value2, new OltEnumRouteConverter<TestEnumType>().ConvertFrom("value-two"));
             Assert.Throws<JsonSerializationException>(() => new OltEnumRouteConverter<TestEnumType>().ConvertFrom("value-three"));
             Assert.Null(new OltEnumRouteConverter<TestEnumType>().ConvertFrom(""));
+            Assert.Null(new OltEnumRouteConverter<TestEnumType>().ConvertFrom(" "));
         }
     }
 }

@@ -19,7 +19,7 @@ namespace OLT.Common.Json.Newtonsoft
         public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
         {
             var val = value as string;
-            if (string.IsNullOrEmpty(val))
+            if (string.IsNullOrWhiteSpace(val))
             {
                 return null;
             }

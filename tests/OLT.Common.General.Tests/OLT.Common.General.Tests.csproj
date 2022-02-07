@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -8,7 +8,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Faker.Net" Version="2.0.154" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
 		<PackageReference Include="xunit" Version="2.4.1" />
 		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
@@ -22,11 +21,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\src\OLT.Common.ComponentModel\OLT.Common.ComponentModel.csproj" />
+	  <ProjectReference Include="..\..\src\OLT.Common.General\OLT.Common.General.csproj" />
 	</ItemGroup>
-
-	<PropertyGroup>
-		<NoWarn>$(NoWarn);8618;8601</NoWarn>
-	</PropertyGroup>
 
 </Project>

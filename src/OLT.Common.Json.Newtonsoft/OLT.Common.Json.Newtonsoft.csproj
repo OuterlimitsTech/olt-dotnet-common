@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<Description>Utilities, Helpers, etc for System.ComponentModel</Description>
+		<Description>Utilities, Helpers, etc. for System.ComponentModel</Description>
 		<ProjectGuid>e500e8ff-5a56-4001-aec6-19361661244b</ProjectGuid>
 	</PropertyGroup>
 

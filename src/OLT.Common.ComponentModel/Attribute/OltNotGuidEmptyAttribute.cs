@@ -8,7 +8,7 @@ namespace OLT.Common.ComponentModel
     ///  The not unique identifier empty attribute
     /// </summary>
     /// <seealso cref="System.ComponentModel.DataAnnotations.ValidationAttribute" />
-    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
+    [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false)]
     public sealed class OltNotGuidEmptyAttribute : ValidationAttribute
     {
         /// <summary>
