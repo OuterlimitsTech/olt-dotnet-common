@@ -18,13 +18,12 @@ namespace OLT.Common.Json.Newtonsoft
     {
         public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
         {
+            //var val2 = value as string;
             var val = value as string;
             if (string.IsNullOrWhiteSpace(val))
             {
                 return null;
-            }
-
-            
+            }            
             return JsonConvert.DeserializeObject<T>(@"""" + value.ToString() + @"""");
         }
     }

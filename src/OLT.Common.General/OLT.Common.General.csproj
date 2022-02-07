@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<Description>Contains variety of utilities and formatters.  This package will not depend on any other packages!</Description>
-		<ProjectGuid>52593051-4071-4d10-8300-84ff8ed7207f</ProjectGuid>
+		<ProjectGuid>{3335BACD-AFDB-40CC-8BB1-CCA848547947}</ProjectGuid>
 	</PropertyGroup>
 
 </Project>
