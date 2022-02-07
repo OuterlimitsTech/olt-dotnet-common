@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>	    
+		<Description>Utilities, Helpers, etc. for System.ComponentModel</Description>
+		<ProjectGuid>52593051-4071-4d10-8300-84ff8ed7207f</ProjectGuid>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+	</ItemGroup>
+
+	
+</Project>
